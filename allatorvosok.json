@@ -5,7 +5,7 @@
       "nev": "Dr. Kovács Anna",
       "szakterulet": "Kisállat orvos",
       "tapasztalat": 15,
-      "kep": "https://via.placeholder.com/200x200/4caf50/ffffff?text=Dr.+Kov%C3%A1cs",
+      "kep": "/img/kovacs_anna.png",
       "leiras": "Szakértő a kisállatok gyógyításában, különös figyelmet fordít a prevencióra."
     },
     {
@@ -13,7 +13,7 @@
       "nev": "Dr. Nagy Péter",
       "szakterulet": "Sebész",
       "tapasztalat": 12,
-      "kep": "https://via.placeholder.com/200x200/2196f3/ffffff?text=Dr.+Nagy",
+      "kep": "/img/nagy_peter.png",
       "leiras": "Több mint 12 éves tapasztalattal rendelkezik sebészeti beavatkozásokban."
     },
     {
@@ -21,7 +21,7 @@
       "nev": "Dr. Szabó Éva",
       "szakterulet": "Belső orvos",
       "tapasztalat": 10,
-      "kep": "https://via.placeholder.com/200x200/ff9800/ffffff?text=Dr.+Szab%C3%B3",
+      "kep": "/img/szabo_eva.png",
       "leiras": "Belső betegségek diagnosztizálásában és kezelésében specializálódott."
     }
   ],

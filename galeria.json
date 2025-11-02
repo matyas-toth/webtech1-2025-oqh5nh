@@ -2,37 +2,37 @@
   "kepek": [
     {
       "id": 1,
-      "url": "https://via.placeholder.com/400x300/4caf50/ffffff?text=Rendel%C5%91+1",
+      "url": "/img/vet_entry.png",
       "cim": "Rendelőnk bejárata",
       "leiras": "Üdvözlő recepciónk"
     },
     {
       "id": 2,
-      "url": "https://via.placeholder.com/400x300/2196f3/ffffff?text=Rendel%C5%91+2",
+      "url": "/img/vet_analyze.png",
       "cim": "Vizsgáló szoba",
       "leiras": "Korszerű felszerelésű vizsgáló"
     },
     {
       "id": 3,
-      "url": "https://via.placeholder.com/400x300/ff9800/ffffff?text=Rendel%C5%91+3",
+      "url": "/img/vet_surgery.png",
       "cim": "Műtő",
       "leiras": "Tiszta, modern műtő"
     },
     {
       "id": 4,
-      "url": "https://via.placeholder.com/400x300/9c27b0/ffffff?text=Allat+1",
+      "url": "/img/vet_happy_dog.png",
       "cim": "Boldog kutyus",
       "leiras": "Egészséges és boldog páciensünk"
     },
     {
       "id": 5,
-      "url": "https://via.placeholder.com/400x300/e91e63/ffffff?text=Allat+2",
+      "url": "/img/vet_cat_care.png",
       "cim": "Macska kezelés",
       "leiras": "Gondos ápolás"
     },
     {
       "id": 6,
-      "url": "https://via.placeholder.com/400x300/00bcd4/ffffff?text=Allat+3",
+      "url": "/img/vet_rabbit_analyze.png",
       "cim": "Nyuszi vizsgálat",
       "leiras": "Apró állatok is fontosak"
     }
