@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Időpontfoglalás - PetCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+    <style>
+        .form-section {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="/img/vet.webp" alt="Időpontfoglalás" style="width: 100%; height: 200px; object-fit: cover; object-position: center 40%;">
+        <nav id="nav">
+            <ul class="menu">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+                <li><a href="idopont.html">Időpontfoglalás</a></li>
+                <li><a href="rolunk.html">Rólunk</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Időpontfoglalás</h1>
+            <section class="form-section">
+                <form id="appointment-form">
+                    <div class="form-group">
+                        <label for="nev">Név: *</label>
+                        <input type="text" id="nev" name="nev" required>
+                        <span class="error-message" id="nev-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email cím: *</label>
+                        <input type="text" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefon">Telefonszám:</label>
+                        <input type="text" id="telefon" name="telefon">
+                        <span class="error-message" id="telefon-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="allat-neve">Állat neve: *</label>
+                        <input type="text" id="allat-neve" name="allat-neve" list="allatok-lista" required>
+                        <datalist id="allatok-lista">
+                            <option value="Kutya">
+                            <option value="Macska">
+                            <option value="Nyúl">
+                            <option value="Tengerimalac">
+                            <option value="Madár">
+                        </datalist>
+                        <span class="error-message" id="allat-neve-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="uzenet">Üzenet / Panaszleírás: *</label>
+                        <textarea id="uzenet" name="uzenet" rows="5" required></textarea>
+                        <span class="error-message" id="uzenet-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="datum">Választott dátum: *</label>
+                        <input type="date" id="datum" name="datum" required>
+                        <span class="error-message" id="datum-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Időpont típusa: *</label>
+                        <div class="radio-group">
+                            <input type="radio" id="vizsgalat" name="idopont-tipus" value="vizsgalat" required>
+                            <label for="vizsgalat">Általános vizsgálat</label>
+                            <br>
+                            <input type="radio" id="oltas" name="idopont-tipus" value="oltas">
+                            <label for="oltas">Oltás</label>
+                            <br>
+                            <input type="radio" id="mutet" name="idopont-tipus" value="mutet">
+                            <label for="mutet">Műtét</label>
+                            <br>
+                            <input type="radio" id="surgos" name="idopont-tipus" value="surgos">
+                            <label for="surgos">Sürgősségi</label>
+                        </div>
+                        <span class="error-message" id="idopont-tipus-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Kiegészítő szolgáltatások:</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="furdes" name="kieg-szolg" value="furdes">
+                            <label for="furdes">Fürdetés</label>
+                            <br>
+                            <input type="checkbox" id="nyiratas" name="kieg-szolg" value="nyiratas">
+                            <label for="nyiratas">Nyíratás</label>
+                            <br>
+                            <input type="checkbox" id="kormozes" name="kieg-szolg" value="kormozes">
+                            <label for="kormozes">Körmözés</label>
+                            <br>
+                            <input type="checkbox" id="chippeles" name="kieg-szolg" value="chippeles">
+                            <label for="chippeles">Chip beültetés</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="szin-valaszto">Kedvenc színed (nem kötelező):</label>
+                        <input type="color" id="szin-valaszto" name="szin-valaszto" value="#4caf50">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Szolgáltatás prioritás sorrendje:</label>
+                        <ol id="prioritas-lista">
+                            <li>Általános vizsgálat</li>
+                            <li>Oltás</li>
+                            <li>Kiegészítő szolgáltatás</li>
+                        </ol>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="submit-btn">Időpont foglalása</button>
+                        <button type="reset" id="reset-btn">Törlés</button>
+                    </div>
+                </form>
+            </section>
+
+            <aside class="form-help">
+                <h3>Segítség</h3>
+                <p>A * jelölt mezők kitöltése kötelező!</p>
+            </aside>
+        </article>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 PetCare Állatorvosi Rendelő. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="jquery-animations.js"></script>
+</body>
+</html>
+

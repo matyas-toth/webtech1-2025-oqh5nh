@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare Állatorvosi Rendelő - Főoldal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #welcome-section {
+            background-color: #e8f5e9;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="/img/vet.webp" alt="PetCare Rendelő" style="width: 100%; height: 200px; object-fit: cover; object-position: center 40%;">
+        <nav id="nav">
+            <ul class="menu">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+                <li><a href="idopont.html">Időpontfoglalás</a></li>
+                <li><a href="rolunk.html">Rólunk</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome-section">
+            <h1>Üdvözöljük a PetCare Állatorvosi Rendelőben!</h1>
+            <p>A háziállataid egészsége a legfontosabb számunkra.</p>
+        </section>
+
+        <article class="main-content">
+            <section id="services-preview">
+                <h2>Szolgáltatásaink</h2>
+                <div id="services-container"></div>
+            </section>
+
+            <aside class="sidebar">
+                <h3>Fontos információk</h3>
+                <div id="contact-info-sidebar"></div>
+            </aside>
+        </article>
+
+        <section id="video-section">
+            <h2>Rendelőnk bemutatása</h2>
+            <div class="video-wrapper">
+                <video id="rendelo-video" width="800" height="450" controls>
+                    <source src="video/rendelo.mp4" type="video/mp4">
+                    A böngésződ nem támogatja a videó lejátszást.
+                </video>
+                <div class="video-controls">
+                    <button id="play-btn">Lejátszás</button>
+                    <button id="pause-btn">Szünet</button>
+                    <button id="vol-up">Hang növelés</button>
+                    <button id="vol-down">Hang csökkentés</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 PetCare Állatorvosi Rendelő. Minden jog fenntartva.</p>
+            <div id="footer-contact"></div>
+        </div>
+    </footer>
+
+    <script src="ajax-loader.js"></script>
+    <script src="main.js"></script>
+    <script src="jquery-animations.js"></script>
+</body>
+</html>

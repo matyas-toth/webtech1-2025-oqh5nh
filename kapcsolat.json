@@ -1,0 +1,33 @@
+{
+  "kapcsolat": {
+    "cim": {
+      "iranyitoszam": "1234",
+      "varos": "Budapest",
+      "utca": "Állatorvos utca",
+      "hazszam": "56."
+    },
+    "telefon": {
+      "fo": "+36 1 234 5678",
+      "mobil": "+36 30 123 4567",
+      "surgos": "+36 30 999 9999"
+    },
+    "email": {
+      "info": "info@petcare.hu",
+      "idopont": "idopont@petcare.hu"
+    },
+    "nyitvatartas": {
+      "hetfo": "08:00 - 18:00",
+      "kedd": "08:00 - 18:00",
+      "szerda": "08:00 - 18:00",
+      "csutortok": "08:00 - 18:00",
+      "pentek": "08:00 - 18:00",
+      "szombat": "09:00 - 13:00",
+      "vasarnap": "Zárva"
+    },
+    "kozpont": {
+      "lat": 47.4979,
+      "lng": 19.0402
+    }
+  }
+}
+

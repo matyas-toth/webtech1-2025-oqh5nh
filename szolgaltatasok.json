@@ -1,0 +1,57 @@
+{
+  "szolgaltatasok": [
+    {
+      "id": 1,
+      "nev": "Általános vizsgálat",
+      "leiras": "Teljes körű egészségügyi ellenőrzés",
+      "ar": 5000
+    },
+    {
+      "id": 2,
+      "nev": "Oltás",
+      "leiras": "Védőoltás beadása",
+      "ar": 3500
+    },
+    {
+      "id": 3,
+      "nev": "Kastráció",
+      "leiras": "Sebészeti beavatkozás",
+      "ar": 15000
+    },
+    {
+      "id": 4,
+      "nev": "Fogkőeltávolítás",
+      "leiras": "Fogkő eltávolítása ultrahanggal",
+      "ar": 8000
+    },
+    {
+      "id": 5,
+      "nev": "Röntgenfelvétel",
+      "leiras": "Röntgenvizsgálat",
+      "ar": 6000
+    },
+    {
+      "id": 6,
+      "nev": "Laborvizsgálat",
+      "leiras": "Vérvétel és laboratóriumi vizsgálat",
+      "ar": 7000
+    },
+    {
+      "id": 7,
+      "nev": "Ultrahang",
+      "leiras": "Ultrahangos vizsgálat",
+      "ar": 9000
+    },
+    {
+      "id": 8,
+      "nev": "Fogászat",
+      "leiras": "Fogkezelés, foghúzás",
+      "ar": 5000
+    }
+  ],
+  "info": {
+    "megjegyzes": "Az árak tájékoztató jellegűek",
+    "fizetesi_modok": ["Készpénz", "Bankkártya", "Banki átutalás"]
+  }
+}
+

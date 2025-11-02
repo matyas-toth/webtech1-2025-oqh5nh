@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galéria - PetCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: white;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <img src="/img/vet.webp" alt="Galéria" style="width: 100%; height: 200px; object-fit: cover; object-position: center 40%;">
+        <nav id="nav">
+            <ul class="menu">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="szolgaltatasok.html">Szolgáltatások</a></li>
+                <li><a href="idopont.html">Időpontfoglalás</a></li>
+                <li><a href="rolunk.html">Rólunk</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
+                <li><a href="galeria.html">Galéria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>Galéria</h1>
+            <section>
+                <h2>Rendelőnk képei</h2>
+                <div id="gallery-container" class="gallery-grid">
+                    <p>Betöltés...</p>
+                </div>
+            </section>
+
+            <aside class="gallery-info">
+                <h3>Rólunk</h3>
+                <p>Nézd meg rendelőnk, csapatunk és az ápolt állatkák képeit!</p>
+            </aside>
+        </article>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 PetCare Állatorvosi Rendelő. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ajax-loader.js"></script>
+    <script src="jquery-animations.js"></script>
+</body>
+</html>
+
