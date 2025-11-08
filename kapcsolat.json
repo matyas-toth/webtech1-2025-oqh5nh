@@ -16,13 +16,13 @@
       "idopont": "idopont@petcare.hu"
     },
     "nyitvatartas": {
-      "hetfo": "08:00 - 18:00",
+      "hétfő": "08:00 - 18:00",
       "kedd": "08:00 - 18:00",
       "szerda": "08:00 - 18:00",
-      "csutortok": "08:00 - 18:00",
-      "pentek": "08:00 - 18:00",
+      "csütörtök": "08:00 - 18:00",
+      "péntek": "08:00 - 18:00",
       "szombat": "09:00 - 13:00",
-      "vasarnap": "Zárva"
+      "vasárnap": "Zárva"
     },
     "kozpont": {
       "lat": 47.4979,
